@@ -1,5 +1,0 @@
-https://www.kaggle.com/code/kolyaforrat/cnn-3trans-speedup/notebook
-
-FORRATO 
-
-CNN+3trans speedup
