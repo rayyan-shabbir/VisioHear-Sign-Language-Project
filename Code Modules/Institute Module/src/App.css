@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.left-section {
+  flex: 1;
+  height: 80vh;
+  background-color: rgb(2, 65, 54);
+}
+
+.right-section {
+  flex: 1;
+  height: 74vh; /* Set a fixed height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px;
+  background-color: rgb(2, 65, 54);
+}
+
+
+.right-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+.right-section::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
